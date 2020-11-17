@@ -31,6 +31,7 @@
         <module>post-construct</module>
         <module>initializing-bean</module>
         <module>init-method</module>
+        <module>constructor-injection</module>
     </modules>
 
     <build>
