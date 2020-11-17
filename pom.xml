@@ -29,6 +29,7 @@
         <module>application-runner</module>
         <module>application-listener</module>
         <module>post-construct</module>
+        <module>initializing-bean</module>
     </modules>
 
     <build>
