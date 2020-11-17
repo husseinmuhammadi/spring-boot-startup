@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 
 @Component
-public class MyApplicationListener implements ApplicationListener<ApplicationReadyEvent> {
-    private static final Logger LOGGER = LoggerFactory.getLogger(MyApplicationListener.class);
+public class ApplicationReadyEventListener implements ApplicationListener<ApplicationReadyEvent> {
+    private static final Logger LOGGER = LoggerFactory.getLogger(ApplicationReadyEventListener.class);
 
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
