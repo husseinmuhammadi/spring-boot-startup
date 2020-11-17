@@ -30,6 +30,7 @@
         <module>application-listener</module>
         <module>post-construct</module>
         <module>initializing-bean</module>
+        <module>init-method</module>
     </modules>
 
     <build>
