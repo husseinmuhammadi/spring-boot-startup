@@ -26,6 +26,8 @@
 
     <modules>
         <module>command-line-runner</module>
+        <module>application-runner</module>
+        <module>application-listener</module>
     </modules>
 
     <build>
